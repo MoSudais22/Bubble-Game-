@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+   width: 100%;
+   height: 100%;
+   background-color: rgba(89, 135, 98, 0.8);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+
+.panel{
+    overflow: hidden;
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.pnltop{
+    padding: 0 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    background-color: rgb(41, 65, 41);
+    color: #fff;
+}
+
+.elem{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.elem h2{
+    font-weight: 500;
+    font-size: 22px;
+}
+.box{
+   font-size: 25px ;
+   font-weight: 700;
+padding: 10px 20px;
+background-color: #fff;
+border-radius: 5px;
+color:  rgb(41, 65, 41);
+
+}
+
+.pnlbtm{
+    padding: 20px;
+    width: 100%;
+    height: calc(100% - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.pnlbtm h1{
+
+    color: rgb(41, 65, 41);
+   font-weight: 700;
+   font-size: 80px;
+}
+.pnlbtm h2{
+    font-size: 40px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(41, 65, 41);
+}
+
+.bubble{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 60px;
+    background-color:rgb(41, 65, 41); ;
+     border-radius: 50%;
+     color: #fff;
+
+
+}
+
+.bubble:hover{
+
+    background-color:rgb(1, 55, 13); ;
+}
